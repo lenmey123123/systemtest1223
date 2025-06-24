@@ -1,0 +1,88 @@
+{
+  "proposal": {
+    "proposal_id": "PROP-20250623-001",
+    "client": {
+      "company": "TechSolutions GmbH",
+      "contact": "Thomas Müller",
+      "email": "thomas.mueller@techsolutions-muenchen.de"
+    },
+    "executive_summary": "\nDie TechSolutions GmbH steht vor der Herausforderung, ihre Vertriebsprozesse zu \nmodernisieren und zu automatisieren. Berneby Development bietet eine maßgeschneiderte \nKI-gestützte Lösung, die Ihre Lead-Qualifizierung um 90% beschleunigt und die \nAngebotserstellung von 3-5 Tagen auf unter 24 Stunden reduziert.\n\nUnser Ansatz kombiniert bewährte Automatisierungstechnologien mit modernster \nKünstlicher Intelligenz, um Ihnen einen nachhaltigen Wettbewerbsvorteil zu verschaffen.\n",
+    "solution_overview": {
+      "components": [
+        {
+          "name": "Lead-Qualification-Agent",
+          "description": "KI-gestützte automatische Lead-Bewertung",
+          "benefit": "Reduziert manuelle Arbeit um 90%"
+        },
+        {
+          "name": "Proposal-Generation-System",
+          "description": "Automatische Angebotserstellung mit Templates",
+          "benefit": "Angebote in <2h statt 3-5 Tagen"
+        },
+        {
+          "name": "CRM-Integration",
+          "description": "Nahtlose Anbindung an bestehende Systeme",
+          "benefit": "Keine Doppelerfassung, einheitliche Datenbasis"
+        },
+        {
+          "name": "Analytics-Dashboard",
+          "description": "Real-time KPI-Monitoring und Reports",
+          "benefit": "Datengestützte Entscheidungen"
+        }
+      ],
+      "implementation_phases": [
+        "Phase 1: Lead-Automatisierung (2 Wochen)",
+        "Phase 2: Angebotserstellung (2 Wochen)",
+        "Phase 3: CRM-Integration (1 Woche)",
+        "Phase 4: Reporting & Optimierung (1 Woche)"
+      ],
+      "technology_stack": [
+        "KI-Agenten (GPT-4 basiert)",
+        "n8n Workflow-Automatisierung",
+        "API-Integrationen",
+        "Cloud-Hosting (skalierbar)"
+      ]
+    },
+    "investment": {
+      "total": 19008.0,
+      "breakdown": {
+        "Lead-Automation": 6000,
+        "Proposal-System": 7000,
+        "CRM-Integration": 3000,
+        "Dashboard & Reporting": 4000,
+        "Setup & Training": 3000
+      },
+      "payment_terms": "50% bei Vertragsabschluss, 50% bei Go-Live"
+    },
+    "timeline": "6 Wochen bis Go-Live",
+    "roi_projection": {
+      "time_savings": "12h/Woche = 624h/Jahr",
+      "cost_savings": "~31.200€/Jahr bei 50€/h Stundensatz",
+      "payback_period": "9 Monate",
+      "conversion_improvement": "+20% mehr gewonnene Projekte"
+    },
+    "next_steps": [
+      "Vertragsunterzeichnung",
+      "Kick-off Meeting (1 Woche)",
+      "Phase 1 Start: Lead-Automatisierung",
+      "Wöchentliche Status-Updates"
+    ]
+  },
+  "lead": {
+    "lead_id": "LEAD-001",
+    "company": "TechSolutions GmbH",
+    "contact_person": "Thomas Müller",
+    "email": "thomas.mueller@techsolutions-muenchen.de",
+    "phone": "+49 89 123456789",
+    "company_size": "45 Mitarbeiter",
+    "industry": "IT-Dienstleistungen",
+    "budget_range": "15.000 - 25.000 Euro",
+    "urgency": "hoch",
+    "decision_maker": true,
+    "raw_requirements": "\nAutomatisierung der Vertriebsprozesse:\n- Manuelle Lead-Qualifizierung kostet zu viel Zeit\n- Angebotserstellung dauert 3-5 Tage  \n- Kundenkommunikation nicht systematisiert\n- Reporting erfolgt manuell\n",
+    "fit_score": 85
+  },
+  "created_at": "2025-06-23T22:01:27.095675",
+  "status": "approved",
+  "sent_to_client": false
+}

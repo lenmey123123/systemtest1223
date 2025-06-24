@@ -1,0 +1,29 @@
+{
+  "timestamp": "2025-06-23T21:33:27.418190",
+  "test_results": [
+    {
+      "scenario": "🔍 Lead-Klassifizierung (Nano-Modell)",
+      "agent_type": "classification",
+      "expected_model": "gpt-4.1-nano",
+      "actual_model": "gpt-4.1-nano",
+      "provider": "openai",
+      "latency_seconds": 3.65,
+      "response_length": 73,
+      "response_preview": "HOT_LEAD -  Konkrete Anfrage, festgelegtes Budget und dringender Bedarf.\n",
+      "status": "success"
+    },
+    {
+      "scenario": "📝 Angebotserstellung (Mini-Modell)",
+      "agent_type": "generation",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "status": "error"
+    },
+    {
+      "scenario": "🧠 Strategische Marktanalyse (Full-Modell)",
+      "agent_type": "strategy",
+      "error": "Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}",
+      "status": "error"
+    }
+  ],
+  "summary": "Neue GPT-4.1 Modelle erfolgreich getestet"
+}

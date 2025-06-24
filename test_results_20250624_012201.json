@@ -1,0 +1,92 @@
+{
+  "individual_tests": {
+    "ceo": {
+      "status": "success",
+      "duration": 1.92575,
+      "result": {
+        "status": "error",
+        "message": "'NoneType' object has no attribute 'lower'"
+      }
+    },
+    "inbound": {
+      "status": "success",
+      "duration": 5.636512,
+      "result": {
+        "status": "success",
+        "lead_id": "4961c412-85b9-4200-9232-697fc503049c"
+      }
+    },
+    "lead_qualification": {
+      "status": "success",
+      "duration": 3.4e-05,
+      "result": {
+        "status": "error",
+        "message": "Unknown message type: test"
+      }
+    },
+    "needs_analysis": {
+      "status": "error",
+      "error": "'NeedsAnalysisAgent' object has no attribute 'log_activity'",
+      "duration": 2.5e-05
+    },
+    "solution_architect": {
+      "status": "error",
+      "error": "'SolutionArchitectAgent' object has no attribute 'log_activity'",
+      "duration": 6e-06
+    },
+    "proposal_writer": {
+      "status": "error",
+      "error": "'ProposalWriterAgent' object has no attribute 'log_activity'",
+      "duration": 0.000156
+    },
+    "qa": {
+      "status": "success",
+      "duration": 3.5e-05,
+      "result": null
+    },
+    "pricing": {
+      "status": "error",
+      "error": "'PricingAgent' object has no attribute 'log_activity'",
+      "duration": 1.2e-05
+    },
+    "delivery_manager": {
+      "status": "error",
+      "error": "'DeliveryManagerAgent' object has no attribute 'log_activity'",
+      "duration": 2.2e-05
+    },
+    "developer": {
+      "status": "error",
+      "error": "'DeveloperAgent' object has no attribute 'log_activity'",
+      "duration": 1e-05
+    },
+    "finance": {
+      "status": "error",
+      "error": "'FinanceAgent' object has no attribute 'log_activity'",
+      "duration": 5.3e-05
+    }
+  },
+  "integration_tests": {
+    "lead_to_proposal": {
+      "status": "success",
+      "flow_results": {
+        "inbound": {
+          "status": "success",
+          "lead_id": "83cf505c-ee9f-45dc-a1e5-8eac42777da1"
+        },
+        "qualification": {
+          "status": "error",
+          "message": "lead_id und lead_data sind erforderlich"
+        }
+      }
+    }
+  },
+  "performance_metrics": {},
+  "cost_analysis": {},
+  "summary": {
+    "total_tests": 12,
+    "successful_tests": 5,
+    "failed_tests": 7,
+    "average_duration": 0.6302179166666666,
+    "total_cost": 0
+  }
+}

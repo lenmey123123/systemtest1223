@@ -1,0 +1,55 @@
+{
+  "timestamp": "2025-06-24T01:12:09.743707",
+  "execution_time": 14.158086,
+  "summary": {
+    "total_tests": 6,
+    "passed_tests": 1,
+    "average_score": 2.0,
+    "prompt_quality": 2.0,
+    "success_rate": 16.666666666666664
+  },
+  "test_results": [
+    {
+      "test": "CEO Agent - Tree-of-Thoughts",
+      "status": "ERROR",
+      "score": 0,
+      "details": "BaseAgent.process_with_llm() got an unexpected keyword argument 'agent_type'",
+      "prompt_quality": 0
+    },
+    {
+      "test": "Inbound Agent - Chain-of-Thought",
+      "status": "FAILED",
+      "score": 0,
+      "details": "name 'random' is not defined",
+      "prompt_quality": 0
+    },
+    {
+      "test": "Lead Qualification - Few-Shot Learning",
+      "status": "PASSED",
+      "score": 6,
+      "details": "Basic qualification completed",
+      "prompt_quality": 0
+    },
+    {
+      "test": "Needs Analysis - ReAct Framework",
+      "status": "FAILED",
+      "score": 1,
+      "details": "Analysis depth: 2568 characters",
+      "prompt_quality": 10
+    },
+    {
+      "test": "Proposal Writer - Persona Pattern",
+      "status": "FAILED",
+      "score": 5,
+      "details": "Proposal length: 1300 characters",
+      "prompt_quality": 2
+    },
+    {
+      "test": "Solution Architect - Multi-Path Reasoning",
+      "status": "FAILED",
+      "score": 0,
+      "details": "Architecture complexity: 681 characters",
+      "prompt_quality": 0
+    }
+  ]
+}

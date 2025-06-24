@@ -1,0 +1,10 @@
+id,agent_id,metric_name,value,target,period,timestamp
+1,ACQ-001,ACQ-001_inbound_calls,1.0,,daily,"2025-06-24 11:25:25"
+2,ACQ-001,leads_processed,1.0,,daily,"2025-06-24 11:25:25"
+3,ACQ-001,leads_qualified,1.0,,daily,"2025-06-24 11:25:25"
+4,ACQ-001,ACQ-001_inbound_calls,1.0,,daily,"2025-06-24 11:32:41"
+5,ACQ-001,leads_processed,1.0,,daily,"2025-06-24 11:32:41"
+6,ACQ-001,leads_qualified,1.0,,daily,"2025-06-24 11:32:41"
+7,ACQ-001,ACQ-001_inbound_calls,1.0,,daily,"2025-06-24 11:33:16"
+8,ACQ-001,leads_processed,1.0,,daily,"2025-06-24 11:33:16"
+9,ACQ-001,leads_qualified,1.0,,daily,"2025-06-24 11:33:16"

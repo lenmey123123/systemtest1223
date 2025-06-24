@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-06-23T21:47:00.119199",
+  "test_results": [
+    {
+      "scenario": "🔍 Lead-Klassifizierung (Nano-Modell)",
+      "agent_type": "classification",
+      "expected_model": "gpt-4.1-nano",
+      "actual_model": "gpt-4.1-nano",
+      "provider": "openai",
+      "latency_seconds": 3.04,
+      "response_length": 73,
+      "response_preview": "HOT_LEAD -  Konkrete Anfrage, festgelegtes Budget und dringender Bedarf.\n",
+      "status": "success"
+    },
+    {
+      "scenario": "📝 Angebotserstellung (Mini-Modell)",
+      "agent_type": "generation",
+      "expected_model": "gpt-4.1-mini",
+      "actual_model": "gpt-4.1-mini",
+      "provider": "openai",
+      "latency_seconds": 4.3,
+      "response_length": 1126,
+      "response_preview": "Betreff: AW: Anfrage Automatisierung Kundenbetreuung - TechSolutions GmbH\n\nSehr geehrter Herr Müller,\n\nvielen Dank für Ihre Anfrage zur Automatisierun...",
+      "status": "success"
+    },
+    {
+      "scenario": "🧠 Strategische Marktanalyse (Full-Modell)",
+      "agent_type": "strategy",
+      "expected_model": "gpt-4o",
+      "actual_model": "gpt-4o",
+      "provider": "openai",
+      "latency_seconds": 7.8,
+      "response_length": 3470,
+      "response_preview": "## Marktchancen für KI-Automatisierung im deutschen Mittelstand: Strategische Einschätzung\n\nDer deutsche Mittelstand steht vor großen Herausforderunge...",
+      "status": "success"
+    }
+  ],
+  "summary": "Neue GPT-4.1 Modelle erfolgreich getestet"
+}

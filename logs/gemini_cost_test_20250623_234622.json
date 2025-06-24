@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-06-23T23:46:22.164859",
+  "total_cost": 0.001449625,
+  "total_tokens": 4349,
+  "test_count": 6,
+  "avg_cost_per_token": 3.3332375258680153e-07,
+  "pricing_model": {
+    "input_tokens": 0.000125,
+    "output_tokens": 0.000375,
+    "free_tier_limit": 1000000
+  },
+  "tests": [
+    {
+      "timestamp": "2025-06-23T23:45:57.887645",
+      "test_name": "Lead-Klassifizierung",
+      "prompt_length": 339,
+      "response_length": 172,
+      "input_tokens": 84,
+      "output_tokens": 43,
+      "total_tokens": 127,
+      "estimated_cost": 2.6625e-05,
+      "cost_per_token": 2.0964566929133858e-07
+    },
+    {
+      "timestamp": "2025-06-23T23:46:01.826080",
+      "test_name": "Lead-Qualifizierung",
+      "prompt_length": 474,
+      "response_length": 2256,
+      "input_tokens": 118,
+      "output_tokens": 564,
+      "total_tokens": 682,
+      "estimated_cost": 0.00022625,
+      "cost_per_token": 3.3174486803519063e-07
+    },
+    {
+      "timestamp": "2025-06-23T23:46:05.526992",
+      "test_name": "Bedarfsanalyse",
+      "prompt_length": 439,
+      "response_length": 2276,
+      "input_tokens": 109,
+      "output_tokens": 569,
+      "total_tokens": 678,
+      "estimated_cost": 0.000227,
+      "cost_per_token": 3.348082595870206e-07
+    },
+    {
+      "timestamp": "2025-06-23T23:46:08.282633",
+      "test_name": "Content-Generierung",
+      "prompt_length": 373,
+      "response_length": 1727,
+      "input_tokens": 93,
+      "output_tokens": 431,
+      "total_tokens": 524,
+      "estimated_cost": 0.00017325,
+      "cost_per_token": 3.3062977099236644e-07
+    },
+    {
+      "timestamp": "2025-06-23T23:46:14.636387",
+      "test_name": "Angebotserstellung",
+      "prompt_length": 692,
+      "response_length": 3715,
+      "input_tokens": 173,
+      "output_tokens": 928,
+      "total_tokens": 1101,
+      "estimated_cost": 0.000369625,
+      "cost_per_token": 3.3571752951861945e-07
+    },
+    {
+      "timestamp": "2025-06-23T23:46:22.163860",
+      "test_name": "Strategische Analyse",
+      "prompt_length": 593,
+      "response_length": 4357,
+      "input_tokens": 148,
+      "output_tokens": 1089,
+      "total_tokens": 1237,
+      "estimated_cost": 0.000426875,
+      "cost_per_token": 3.4508892481810835e-07
+    }
+  ]
+}
