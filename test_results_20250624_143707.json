@@ -1,0 +1,50 @@
+{
+  "CEO-001": {
+    "status": "error",
+    "error": "'CEO-001'"
+  },
+  "ACQ-001": {
+    "status": "error",
+    "error": "'ACQ-001'"
+  },
+  "ACQ-002": {
+    "status": "error",
+    "error": "'ACQ-002'"
+  },
+  "SALES-001": {
+    "status": "error",
+    "error": "'SALES-001'"
+  },
+  "SALES-002": {
+    "status": "error",
+    "error": "'SALES-002'"
+  },
+  "SALES-005": {
+    "status": "error",
+    "error": "'SALES-005'"
+  },
+  "SALES-003": {
+    "status": "error",
+    "error": "'SALES-003'"
+  },
+  "SALES-004": {
+    "status": "error",
+    "error": "'SALES-004'"
+  },
+  "DEL-001": {
+    "status": "error",
+    "error": "'DEL-001'"
+  },
+  "DEL-002": {
+    "status": "error",
+    "error": "'DEL-002'"
+  },
+  "DEL-003": {
+    "status": "error",
+    "error": "'DEL-003'"
+  },
+  "OPS-001": {
+    "status": "error",
+    "error": "'OPS-001'"
+  }
+}

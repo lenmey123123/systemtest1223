@@ -1,0 +1,102 @@
+{
+  "CEO-001": {
+    "status": "error",
+    "error": "object dict can't be used in 'await' expression"
+  },
+  "ACQ-001": {
+    "status": "success",
+    "data": {
+      "status": "success",
+      "lead_info": {
+        "lead_id": "LEAD-2025-06-24T14:38:04.643623-1804289383",
+        "timestamp": "2025-06-24T14:38:04.643623",
+        "lead_source": "Website Contact Form",
+        "contact_info": {
+          "name": null,
+          "email": null,
+          "phone": null,
+          "company": null,
+          "position": null,
+          "website": null
+        },
+        "project_info": {
+          "service_category": "unclear",
+          "description": null,
+          "budget_range": null,
+          "timeline": null,
+          "urgency": "low",
+          "industry": null,
+          "company_size": null
+        },
+        "lead_quality": "low",
+        "priority": "low",
+        "confidence": 0.1,
+        "next_action": "request_details",
+        "notes": "Der rohe Inhalt des Leads ist leer. Es sind keine Informationen zur Kontaktaufnahme oder zum Projekt vorhanden. Es m\u00fcssen weitere Details angefordert werden.",
+        "data_quality": {
+          "email_valid": false,
+          "phone_valid": false,
+          "company_verified": false
+        },
+        "enrichment_needed": [
+          "name",
+          "email",
+          "phone",
+          "company",
+          "position",
+          "website",
+          "description",
+          "budget_range",
+          "timeline",
+          "urgency",
+          "industry",
+          "company_size"
+        ],
+        "spam_indicators": [],
+        "processing_confidence": 1.0
+      },
+      "next_action": "request_details",
+      "processing_time": "2025-06-24T14:38:10.009124"
+    }
+  },
+  "ACQ-002": {
+    "status": "error",
+    "error": "'LeadQualificationAgent' object has no attribute 'qualify_lead'"
+  },
+  "SALES-001": {
+    "status": "error",
+    "error": "'NeedsAnalysisAgent' object has no attribute 'analyze_needs'"
+  },
+  "SALES-002": {
+    "status": "error",
+    "error": "'SolutionArchitectAgent' object has no attribute 'design_solution'"
+  },
+  "SALES-005": {
+    "status": "error",
+    "error": "'PricingAgent' object has no attribute 'calculate_pricing'"
+  },
+  "SALES-003": {
+    "status": "error",
+    "error": "'ProposalWriterAgent' object has no attribute 'generate_proposal'"
+  },
+  "SALES-004": {
+    "status": "error",
+    "error": "'QAAgent' object has no attribute 'review_proposal'"
+  },
+  "DEL-001": {
+    "status": "error",
+    "error": "'OnboardingAgent' object has no attribute 'create_onboarding_plan'"
+  },
+  "DEL-002": {
+    "status": "error",
+    "error": "'DeveloperAgent' object has no attribute 'plan_development'"
+  },
+  "DEL-003": {
+    "status": "error",
+    "error": "'DeliveryManagerAgent' object has no attribute 'create_delivery_plan'"
+  },
+  "OPS-001": {
+    "status": "error",
+    "error": "'FinanceAgent' object has no attribute 'analyze_project'"
+  }
+}
